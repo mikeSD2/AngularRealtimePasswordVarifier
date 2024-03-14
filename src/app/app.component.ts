@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { PasswordComplexityComponent } from "./password-complexity/password-complexity.component";
-import { PasswordInputComponent } from "./password-form/password-input.component";
+import { PasswordInputComponent } from "./password-form/password-form.component";
 
 @Component({
     selector: 'app-root',

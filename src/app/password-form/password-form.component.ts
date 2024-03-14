@@ -9,8 +9,8 @@ import { RegExps } from '../classes/reg-exps';
 @Component({
     selector: 'app-password-input',
     standalone: true,
-    templateUrl: './password-input.component.html',
-    styleUrl: './password-input.component.css',
+    templateUrl: './password-form.component.html',
+    styleUrl: './password-form.component.css',
     imports: [CommonModule, ReactiveFormsModule, CustomInputComponent]
 })
 export class PasswordInputComponent {
